@@ -1,0 +1,97 @@
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+  }
+  .body{
+    background: var(--mainWhite);
+  }
+ 
+
+.userright{
+    float: right;
+    width: 13%;
+    height: 600px;
+    border: 1px solid var(--mainBlack);
+    border-radius: 5px;
+    }
+
+    .profile{
+      width: 99%;
+      background: var(--mainWhite);
+      height: 250px;  
+      border: 1px solid var(--mainWhite);
+      
+ 
+    
+    }
+    
+		.profile img{
+          width: 100%;
+           height: 210px;
+           border: 1px solid var(--mainBlack);
+    }
+    .profile button{
+      width: 100%;
+      color: var(--mainBlack);
+      letter-spacing: var(--mainSpacing);
+      opacity: 0.9;
+      text-transform: uppercase;
+      padding: 4px 4px;
+
+    }
+    .profile button:hover{
+   
+      color: var(--primaryColor);
+
+      }
+
+
+
+    .dashboard{
+      width: 100%;
+      margin-top: 70px;
+      height: 100px;
+      float: left;
+      
+    }
+    .dashboard button {
+      width: 100%;
+      background-color: var(--primaryColor);
+      color: var(--mainWhite);
+      letter-spacing: var(--mainSpacing);
+      text-transform: uppercase;
+      padding: 5px 5px;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 5px; 
+      }
+
+      .dashboard button:hover{
+       
+        color: var(--mainBlack);
+
+        }
+        
+      
+
+
+
+
+
+  .userleft{
+    float:left;
+    width: 84%;
+    height: 600px;
+    border: 1px solid var(--mainBlack);
+    }
+    .userleft h3{
+      text-align: center;
+      color: var(--mainBlack);
+
+    }
+    
+  
