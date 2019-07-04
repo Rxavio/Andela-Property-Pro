@@ -1,0 +1,63 @@
+
+:root {
+    --primaryColor: #f09d51;
+      --mainWhite: #fff;
+      --mainBlack: #222;
+      --mainGrey: #ececec;
+      --mainSpacing: 0.1rem;
+      --mainTransition: all 0.3s linear;
+    }
+    .body{
+        background: var(--mainWhite);
+      }
+
+    .register-page{
+        width: 350px;
+        height:410px;
+        padding: 10% 0 0;
+        margin: auto;
+    }
+    .register-page form{
+      margin-top:-10px;
+    
+    }
+    
+.input-container {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  .input-field {
+    background: var(--mainGrey);
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #999;
+  }
+  
+
+  .btn {
+    background-color: var(--primaryColor);
+    color: var(--mainBlack);
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  
+
+  p{
+    text-align: center;
+  }
+  p a{
+    color: var(--primaryColor);
+    font-size: 18px;
+  }
+  
