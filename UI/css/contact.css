@@ -1,0 +1,70 @@
+
+:root {
+    --primaryColor: #f09d51;
+      --mainWhite: #fff;
+      --mainBlack: #222;
+      --mainGrey: #ececec;
+      --mainSpacing: 0.1rem;
+      --mainTransition: all 0.3s linear;
+    }
+    .body{
+      background: var(--mainWhite);
+    }
+
+ 
+    .contact-page {
+      width: 450px;
+       height:auto;
+       padding: 10% 0 0;
+       margin: auto;
+       margin-top:20px;
+       margin-bottom: 20px;
+         }
+         .form{
+           margin-top:-100px;
+         }
+         .form h4{
+            margin: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+         }
+         .form h5{
+            margin: auto;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+         }
+       
+     input[type=text], textarea {
+       background: var(--mainGrey);
+       width: 90%;
+       margin-left: 10px;
+       margin-right: 10px;
+       display: inline-block;
+       border: 1px solid #ccc;
+      
+       box-sizing: border-box;
+     }
+     
+   
+     input[type=submit] {
+       width: 90%;
+       background-color: var(--primaryColor);
+       color: var(--mainBlack);
+       border-radius: 5px;
+       text-transform: uppercase;
+       padding: 14px 20px;
+       margin: auto;
+       margin-left: 10px;
+       margin-right: 10px;
+       margin-bottom: 10px;
+       border: none;
+       cursor: pointer;
+      
+     }
+       
+     
