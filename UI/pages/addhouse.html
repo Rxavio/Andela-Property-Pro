@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROPERTYPRO-LITE</title>
+    <link rel="stylesheet" href="../css/main1.css"/>
+    <link rel="stylesheet" href="../css/addhouse.css"/>
+    <link rel="stylesheet" href="../css/media.css"/>
+
+<body class="body">
+     <!--header property--> 		
+	<header class="mainheader">
+    
+		<nav>
+            <ul>
+                    <li> <a href="/index.html">Home</a></li>
+                    <li> <a href="../pages/contact.html">Contact Us</a></li>
+                    <li> <a href="../pages/userpanel.html">My Dashboard</a></li>
+                    <li> <a href="/index.html">logout</a></li>					
+            </ul>
+        </nav>
+        </header>
+         <!--header property end --> 
+
+        
+  <!--Add property --> 
+  <div class="contact-page">
+
+    <div class="form">
+        
+        <h5> post your property here
+            but better to konw it 
+            please give us the following  
+            descriptions</h5>
+        
+            <form>
+       
+        
+        <input type="text" id="email" name="email" placeholder="Enter Your email">
+        <input type="text" id="Phone" name="Phone" placeholder="Enter Your phone Number">
+
+        <select name="choose" id="choose">
+        <option value="select">Select Advert Type</option>
+        <option value="sale">FOR SALE</option>
+        <option value="rent">FOR RENT</option>
+         </select>
+
+         <select name="type" id="type">
+         <option value="">Select Property Type</option>
+        <option value="house">House</option>
+        <option value="apartment">Apartment</option>
+        <option value="commerce">Commerce</option>
+        <option value="office">Office</option>
+        
+            </select>
+            <select name="location" id="location">
+                <option value="">select location</option>
+                <option value="kagugu">KAGUGU</option>
+                <option value="nyarutarama">NYARUTARAMA</option>
+                <option value="kacyiru">KACYIRU</option>
+                <option value="remera">REMERA</option>
+                <option value="gacuriro">GACURIRO</option>
+                <option value="kanombe">KANOMBE</option>
+                <option value="nyamirambo">NYAMIRAMBO</option>
+                <option value="kagarama">KAGARAMA</option>
+                <option value="rebero">REBERO</option>
+                <option value="kiyovu">KIYOVU</option>
+                <option value="kimironko">KIMIRONKO</option>
+                <option value="kimihurura">KIMIHURURA</option>
+              
+                     </select>
+
+                     <select name="type" id="type">
+                        <option value=" ">select bedrooms</option>
+                       <option value="1-bedrooms">1 bedrooms</option>
+                       <option value="2-bedrooms">2 bedrooms</option>
+                       <option value="2-bedrooms">3 bedrooms</option>
+                       <option value="4-bedrooms">4 bedrooms</option>
+                       <option value="5-bedrooms">5 bedrooms</option>
+                       <option value="5+-bedrooms">5+ bedrooms</option>
+                               </select>
+
+       
+      
+       
+            <div>
+            <h4>CONSTRUCTION YEAR</h4>
+            <input type="date" id="const-year">
+            </div>
+           
+          <div>  
+             <h4> UPLOAD PROPERTY PHOTOS</h4>
+        <input type='file' onchange="readURL(this);" id="property-photo"/> 
+        <img id="ShowImage" src="#" >
+        
+         </div>
+
+         <textarea name="idea" rows="10" cols="50" placeholder="Please write other descriptions of your property"></textarea>
+       
+
+      
+      
+
+
+        <input type="submit" value="ADD PROPERTY">
+
+            </form>
+
+</div>
+</div>
+
+  
+ 
+ 
+  
+ <!--footer--> 
+ <footer class="mainfooter">
+    <p>copyright &copy <span>2018-2019<span></p>
+    
+</footer>
+ <!--footer end--> 
+
+
+    
+</body>
+</html>
