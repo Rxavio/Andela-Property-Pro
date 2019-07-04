@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROPERTYPRO-LITE</title>
+    <link rel="stylesheet" href="../css/main1.css"/>
+    <link rel="stylesheet" href="../css/details.css"/>
+    <link rel="stylesheet" href="../css/media.css"/>
+
+<body class="body">
+     <!--header property--> 		
+	<header class="mainheader">
+			<nav>
+            <ul>
+                <li> <a href="/index.html">Home</a></li>
+
+                <li> <a href="../pages/contact.html">Contact Us</a></li>
+                <li> <a href="../pages/create.html">register</a></li>
+                <li> <a href="../pages/login.html">login</a></li>					
+            </ul>
+        </nav>
+        </header>
+         <!--header property end --> 
+
+        
+  <!--details --> 
+ 
+  <div class="product">
+
+        <div class="img-container">
+         <img id="imageBox" src="../assets/images/house13.jpg">
+        </div>
+
+     
+
+	  <div class="product-small-img">
+      <img src="../assets/images/house13.jpg" onclick="myFunction(this)">
+      <img src="../assets/images/img-2.jpeg" onclick="myFunction(this)">
+      <img src="../assets/images/img-3.jpeg" onclick="myFunction(this)">
+      <img src="../assets/images/img-4.jpeg" onclick="myFunction(this)">
+      <img src="../assets/images/img-5.jpeg" onclick="myFunction(this)">   
+     
+    </div>
+      
+</div>
+
+<div class="containerb">
+    <img src="../assets/images/agent.JPG">
+    <div class="containerinfo">
+        <h3>AGENT INFO</h3>
+        <p>NAME:KALISA CLAUDE</p>
+        <p>TEL:0788209432</p>
+        <p>Email:kalisaclaude@gmail.com</p>
+        </div>
+
+        <div class="containerseller">
+        <form>
+         <h3>BUYER INFO</h3>
+        <input type="text" placeholder="Enter your name" name="names">
+        <input type="text" placeholder="Enter your email" name="email">
+        <input type="text" placeholder="Enter your phone no" name="tel">
+        <textarea name="idea" rows="5" cols="50" placeholder="Please write your message"></textarea>
+        <button>EMAIL AGENT</button>
+                
+         </form>
+        </div>
+         </div>
+
+         <div class="info">
+             <h3>PROPERTY DETAILS</h3>
+             <hr>
+             <div class="info1">
+                 <p>
+          It has 4- bed rooms, 3-bathrooms, sitting room, dining room, kitchen, boy’s quarters, outside kitchen, store, and annex house component by domestic staff quarter.It has also  parking’s for more than 3-cars and the modern garden.
+                 </p>
+
+                 <p>
+             Status:RENT<br>
+            Location: REMERA<br>                                                                                                                                             
+            Price: 1000000Rwf<br>
+         It is located near   the main road; it is 20 minutes to Kigali city centre and is around 15 minutes to Kigali Airport.
+            
+                 </p>
+                 <div class="containerseller">
+                        <form>
+                         <h3>REPORT PROPERTY Ads</h3>
+                         <select name="report" id="report">
+                                <option value="select">select scam/sold</option>
+                                <option value="sold">Sold</option>
+                                <option value="scam">Scam</option>
+                                        </select>
+                        
+                        <textarea name="idea" rows="5" cols="50" placeholder="Please Describe your Report"></textarea>
+                        <button>SEND REPORT</button>
+                                
+                         </form>
+                        </div>
+                
+                
+                 
+                </div>
+
+
+
+                
+                <div class="infomap">
+
+ <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Cd7-zSGwTIvV-P-fQm4b3gadI8B3U-8M" width="900" height="600"></iframe>
+                   
+           
+               </div>
+
+            
+            
+            </div>
+
+
+
+
+ <!--footer--> 
+ <footer class="mainfooter">
+        <p>copyright &copy <span>2018-2019<span></p>
+        
+    </footer>
+     <!--footer end--> 
+
+
+<script>
+	function myFunction(smallImg){
+
+	let fullImg=document.getElementById("imageBox");
+	fullImg.src=smallImg.src;
+	}
+	
+</script>
+</body>
+</html>
