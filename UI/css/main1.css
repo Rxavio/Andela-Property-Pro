@@ -1,0 +1,255 @@
+
+:root {
+  --primaryColor: #f09d51;
+    --mainWhite: #ffffff;
+    --mainBlack: #000000;
+    --mainGrey: #ececec;
+    --color1:#666666;
+    --color2:#999999;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all .5s ease;
+  }
+
+  a{
+    text-decoration: none;
+  
+  }
+.body{
+  background: var(--mainWhite);
+   margin: 0 auto;
+   width: 100%;
+  }
+  
+  .mainheader{
+   background:var(--mainGrey);
+  
+}
+.mainheader nav{
+  background: var(--mainBlack);
+   height: 60px;
+   width: 100%;
+   display: flex;
+}
+.mainheader nav ul{
+    list-style: none;
+    margin: 0 auto;
+    
+   
+}
+.mainheader nav ul li{
+    float:left;
+    display: inline; 
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+    color: var(--mainWhite);
+    display: inline-block;
+    padding: 10px 20px;
+    height: 20px;
+    text-transform: uppercase;  
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.maainheader nav.active a:link,.mainheader nav .active a:visited{
+  transition: var(--mainTransition);
+  border-radius: 4px;   
+  transform: scale(1.06);
+  
+}
+
+.container{
+   min-height: calc(80vh - 40px);
+  background: url("../assets/images/img-1.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+    margin-top:50px;
+    width: 600px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.911);
+    display: inline-block;
+    padding: 1rem;
+  }
+  .banner-text {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 5rem;
+   
+  }
+  .banner-button {
+    padding: 1rem 1.5rem; 
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    cursor: pointer;
+  
+  }
+  .banner-button:hover {
+    background: transparent;
+    color: var(--primaryColor);
+    transform: scale(1.06);
+    transition: var(--mainTransition);
+  }
+  .banner-button a{
+    color: var(--mainBlack);
+  }
+
+  .containersearch{
+    width: 25%;
+    float: left;
+    height: auto;
+    background-color: var(--mainWhite);
+		box-sizing: border-box;	
+		padding: 12px 20px;
+    margin-top:12px;
+    border: 1px solid var(--color2);
+  }
+
+input[type=text],select{
+  background: var(--mainGrey);
+	width: 100%;
+	padding: 9px 6px;
+	margin: 6px 0;
+	display:inline-block;
+  border: 1px solid var(--color2);
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.containersearch button{
+  background: var(--primaryColor);
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px 8px;
+  font-size: 14px;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  color: var(--mainBlack);
+  border: 1px solid var(--primaryColor);
+}
+.containersearch button:hover {
+  background: transparent;
+  color: var(--mainBlack);
+}
+
+.containersearch h5{
+	box-sizing: border-box;
+	outline: 1;
+	color: var(--mainBlack);
+	font-size: 14px;
+	border: none;
+	margin: 0 0 0;
+	padding: 0;
+	
+}
+
+  .containerpost{
+    float: right;
+    width: 70%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  
+  }
+
+  .card {
+    height: auto;					
+    box-sizing: border-box;	
+    float:left;
+    padding: 10px 10px;
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 300px;
+    text-align: center; 
+  }
+  .card:hover{
+    transition: var(--mainTransition); 
+    transform: scale(1.012);
+  }
+
+  .info-card  {
+    border: 1px solid #e1e1e1;
+    padding: 0px 10px;
+    background: var(--mainWhite);
+    margin-top: -10px;
+    text-align: center;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .price { 
+  font-size: 15px;
+}
+.info-card .price span {
+    font-weight: 700;
+    font-size: 14px;
+    }
+  .card h4 {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-style: italic;
+    color: var(--primaryColor);
+  }
+ 
+  .card button {
+    border: none;
+    padding: 6px;
+    color: var(--mainBlack);
+    background: var(--mainGrey);
+    letter-spacing: var(--mainSpacing);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card button a{
+    color: var(--mainBlack);
+  }
+ 
+  .card img{
+    width: 100%;
+    height: 220px; 
+  } 
+
+
+  /*footer*/
+  .mainfooter{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: var(--mainBlack);
+  
+  }
+  .mainfooter p{
+    text-align: center;
+    color: var(--mainWhite);
+    font-size: 18px;
+  }
+  .mainfooter span{
+    color: var(--primaryColor);
+    font-size: 18px;
+    opacity: 0.7;
+  }
+  
+
+  .myBtn{
+    background: var(--mainGrey);
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    border: none;
+    outline: none;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    }
+ 
+

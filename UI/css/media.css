@@ -1,0 +1,164 @@
+@media only screen and (min-width: 150px) and (max-width: 700px) {
+    .body{
+     font-size: 100%;
+    }
+ .mainheader nav{
+     height: auto;
+ }
+ .mainheader nav ul{
+     padding-left: 0;
+     
+ }
+ .mainheader nav ul li{
+     width: 100%;
+     text-align: center;
+ }
+ .mainheader nav a:link, .mainheader nav a:visited{
+     height: 20px;
+     display: block;
+ }
+
+ .container{
+    width: 100%;  
+}
+
+.containersearch{
+    width: 100%;
+}
+
+.containerpost{
+    width: 100%;
+    margin-right: 0px;    
+}
+.card{
+    width: 99%;
+    margin: auto;
+    
+}
+.mainfooter{
+	width: 100%;
+	margin: 2% 0;
+
+}
+.mainfooter p{
+	width: 100%;
+	
+}
+
+
+  .login-page form{
+    width: 90%;
+    margin:auto; 
+  }
+  .register-page form{
+    width: 90%;
+    margin:auto; 
+  }
+  .reset-page form{
+    width: 90%;
+    margin:auto; 
+  }
+
+  .reset-page{
+    width: 100%;
+}
+.login-page{
+    width: 100%;
+}
+.register-page{
+    width: 100%;
+}
+.contact-page{
+    width: 100%;
+    margin-top: 22px;
+}
+.contact-page .form{
+    margin-top:0px;
+    margin-left: 10px;
+}
+
+.userright{
+    width: 100%
+}
+
+.profile img{
+    width: 100%;
+     height: 210px;
+     border: 1px solid var(--mainBlack);
+}
+.userleft{
+    width: 100%;
+}
+.product{
+    width: 100%;
+    border: none;
+}
+.img-container img{
+	height: 250px;
+}
+.product-small-img img{
+	height: 47px;
+	width: 75px; 
+}
+.containerb{
+	width: 100%;	
+}
+.containerinfo{
+    margin-top: 250px;
+    width: 100%;
+}
+
+.containerseller{
+    width: 100%;
+}
+.info1{
+	width: 100%;
+
+}
+.infomap{
+	width: 100%;
+
+}
+.infomap iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+    
+    .card{
+        width: 100%;
+
+    }
+
+    .contact-page{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .login-page{
+        width: 100%;
+    }
+    .register-page{
+        width: 100%;
+    }
+    .login-page form{
+        width: 90%;
+        margin:auto; 
+      }
+      .register-page form{
+        width: 90%;
+        margin:auto; 
+      }
+        
+
+}
