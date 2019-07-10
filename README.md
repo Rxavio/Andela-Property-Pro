@@ -11,6 +11,8 @@ My pivot tracker project stories(https://www.pivotaltracker.com/n/projects/23562
 ###HTML
 ###CSS
 ###Javascript
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 ## GitHub Repo link for my UI pages Frontend
 
