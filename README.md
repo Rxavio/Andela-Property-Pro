@@ -8,9 +8,9 @@ My pivot tracker project stories(https://www.pivotaltracker.com/n/projects/23562
 
 ## User Interface (UI) (Frontend)
 
-######HTML
-######CSS
-######Javascript
+###HTML
+###CSS
+###Javascript
 
 ## GitHub Repo link for my UI pages Frontend
 
