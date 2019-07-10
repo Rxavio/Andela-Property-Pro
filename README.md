@@ -19,7 +19,7 @@ https://github.com/xavioo/Andela-Property-Pro
 
 ## GitHub pages link for my UI pages Frontend
 
-https://github.com/xavioo/Andela-Property-Pro
+https://xavioo.github.io/Andela-Property-Pro/UI/
 
 ## Required Features for property pro lite 
 - [ ] User can sign up.
