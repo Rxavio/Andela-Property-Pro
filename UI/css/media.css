@@ -2,14 +2,8 @@
     .body{
      font-size: 100%;
     }
-
-
-.mainheader img{
-                                
-    margin-left: 40%;
- }
  .mainheader nav{
-     height: 270px;
+     height: auto;
  }
  .mainheader nav ul{
      padding-left: 0;
@@ -20,8 +14,6 @@
      text-align: center;
  }
  .mainheader nav a:link, .mainheader nav a:visited{
-     
-    
      height: 20px;
      display: block;
  }

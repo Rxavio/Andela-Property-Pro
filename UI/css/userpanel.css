@@ -61,7 +61,7 @@
     .dashboard button {
       width: 100%;
       background-color: var(--primaryColor);
-      color: var(--mainWhite);
+      color: var(--mainBlack);
       letter-spacing: var(--mainSpacing);
       text-transform: uppercase;
       padding: 5px 5px;
@@ -70,12 +70,6 @@
       border-radius: 5px; 
       }
 
-      .dashboard button:hover{
-       
-        color: var(--mainBlack);
-
-        }
-        
       
 
 

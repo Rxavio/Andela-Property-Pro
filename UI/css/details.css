@@ -15,7 +15,7 @@
 	float: left;
     height: auto;
 	position: absolute;
-	border: 1px solid #999;
+	
 }
 .img-container img{
 	width: 100%;
@@ -77,12 +77,12 @@
 	color: var(--mainBlack);
 }
 .containerinfo p{
-      margin: 10px;
+     margin: 10px;
 	padding: 8px 8px;
 	font-size: 14px;
 	letter-spacing: var(--mainSpacing);
 	color: var(--mainBlack);
-	border: 1px solid var(--primaryColor);
+	/*border: 1px solid var(--primaryColor);*/
 	
 }
 
@@ -91,7 +91,7 @@
 	margin-top: 20px;
 	margin-bottom: 10px;
 	background: var(--mainGrey);
-	width: 95%;
+	width: 80%;
 	height: auto;
 	border: 1px solid var(--mainBlack);	
 }

@@ -58,13 +58,13 @@
 
 .container{
    min-height: calc(80vh - 40px);
-  background: url("../assets/images/house13.jpg") center/cover no-repeat;
+  background: url("../assets/images/img-1.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner {
-     margin-top:100px;
+    margin-top:50px;
     width: 600px;
     text-align: center;
     background: rgba(255, 255, 255, 0.911);
