@@ -1,5 +1,5 @@
 const property_data = [
-    {
+   /* {
     id: 1,
     owner: 1, 
     status: 'avalable', 
@@ -10,7 +10,7 @@ const property_data = [
     type: '5bedrooms', 
     created_on: '',
     image_url:''
-    }
+    }*/
     
    
  ];
