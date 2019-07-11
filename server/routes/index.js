@@ -4,4 +4,6 @@ const routes = Router();
 
 routes.get('/', propertyController.getAllProperties);
 
+routes.get('/:id', propertyController.getSingleProperty);
+
 export default routes;
