@@ -18,6 +18,32 @@ describe("Properties", () => {
                      done();
                   });
          });
+
+         
+     // single property test
+        it("should not get a property", (done) => {
+            const id = 5;
+            chai.request(app)
+                .get(`/${id}`)
+                .end((err, res) => {
+                    res.should.have.status(404);
+                    done();
+                 });
+        });
+
+
+       // single property test
+       it("should get a single property", (done) => {
+            const id = 1;
+            chai.request(app)
+                .get(`/${id}`)
+                .end((err, res) => {
+                    res.should.have.status(200);
+                    res.body.should.be.a('object');
+                    done();
+                 });
+        });
+        
         
          
        
