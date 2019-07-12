@@ -100,5 +100,7 @@ static deleteProperty(req, res) {
 
 }
 
+}
+
 
 export default propertyController;

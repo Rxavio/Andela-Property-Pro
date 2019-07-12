@@ -15,4 +15,5 @@ routes.patch('/property/:id', propertyController.updateProperty);
 routes.delete('/property/:id', propertyController.deleteProperty);
 
 
+
 export default routes;
