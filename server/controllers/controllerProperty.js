@@ -59,9 +59,28 @@ static addProperty(req, res) {
     }
   });
 }
-   
+
+//*********update property*********** */
+static updateProperty(req, res) {
+  const { id } = req.params;
+  const property = property_data.find(updateProperty => updateProperty.id == id);
+  if (property) {
+    (property.owner = req.body.owner),  (property.status = req.body.status),  (property.price = req.body.price), 
+    (property.state = req.body.state),  (property.city = req.body.city),  (property.address = req.body.address),
+    (property.type = req.body.type),  (property.created_on = req.body.created_on),(property.body = req.body.body);
+    return res.status(201).json({
+      status: "success",
+      data: property_data,
+    });
+  } else {
+    res.status(400).json({
+      error: "property can not be updated"
+    });
+  }
 }
 
+
+}
 
 
 export default propertyController;
