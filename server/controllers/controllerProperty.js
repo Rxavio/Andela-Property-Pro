@@ -79,6 +79,26 @@ static updateProperty(req, res) {
   }
 }
 
+//*********delete property*********** */
+static deleteProperty(req, res) {
+   const property =property_data.find(c=>c.id===parseInt(req.params.id));
+  
+   if(!property) res.status(404).send('The given property Id not found');
+  
+   const index=property_data.indexOf(property);
+   property_data.splice(index, 1);
+
+   return res.status(201).json({
+    status: "success",
+    data: {
+      message:"Successfully Deleted"
+    },
+  });
+  
+}
+
+
+}
 
 }
 
