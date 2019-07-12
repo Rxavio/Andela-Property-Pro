@@ -10,4 +10,8 @@ routes.get('/property/:id', propertyController.getSingleProperty);
 
 routes.post('/property', propertyController.addProperty);
 
+routes.patch('/property/:id', propertyController.updateProperty);
+
+
+
 export default routes;
