@@ -13,7 +13,7 @@
 
     .register-page{
         width: 350px;
-        height:410px;
+        height:auto;
         padding: 10% 0 0;
         margin: auto;
     }
@@ -39,7 +39,15 @@
     outline: none;
     border: 1px solid #999;
   }
-  
+  input[type=radio]{
+    background: var(--mainGrey);
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
   .btn {
     background-color: var(--primaryColor);
