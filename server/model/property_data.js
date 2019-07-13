@@ -7,11 +7,15 @@ const property_data = [
     state: 'Rwanda', 
     city: 'Kigali', 
     address: 'remera',
-    type: '5bedrooms', 
+    type: '5bed', 
     created_on: '',
     image_url:''
     }
+
     
+
+    */
+
    
  ];
  export default property_data;
