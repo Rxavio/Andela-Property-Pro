@@ -37,7 +37,6 @@
 }
 .mainfooter{
 	width: 100%;
-	margin: 2% 0;
 
 }
 .mainfooter p{
@@ -78,16 +77,21 @@
 }
 
 .userright{
-    width: 100%
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.userright .logout{
+    display: none;
 }
 
 .profile img{
-    width: 100%;
-     height: 210px;
-     border: 1px solid var(--mainBlack);
+    display: none;
 }
 .userleft{
     width: 100%;
+    height: auto;
+    border: none;
 }
 .product{
     width: 100%;
@@ -96,9 +100,13 @@
 .img-container img{
 	height: 250px;
 }
+.product-small-img{
+	width: 100%;
+}
+
 .product-small-img img{
 	height: 47px;
-	width: 75px; 
+	width: 60px; 
 }
 .containerb{
 	width: 100%;	
@@ -123,42 +131,5 @@
     width: 100%;
     height: 100%;
 }
-
-
-
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1300px) {
-    
-    .card{
-        width: 100%;
-
-    }
-
-    .contact-page{
-        width: 100%;
-    }
-    .form{
-        width: 100%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .login-page{
-        width: 100%;
-    }
-    .register-page{
-        width: 100%;
-    }
-    .login-page form{
-        width: 90%;
-        margin:auto; 
-      }
-      .register-page form{
-        width: 90%;
-        margin:auto; 
-      }
-        
 
 }
