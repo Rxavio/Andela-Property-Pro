@@ -59,9 +59,61 @@ static addProperty(req, res) {
     }
   });
 }
-   
+
+//*********update property*********** */
+static updateProperty(req, res) {
+  const { id } = req.params;
+  const property = property_data.find(updateProperty => updateProperty.id == id);
+  if (property) {
+    (property.owner = req.body.owner),  (property.status = req.body.status),  (property.price = req.body.price), 
+    (property.state = req.body.state),  (property.city = req.body.city),  (property.address = req.body.address),
+    (property.type = req.body.type),  (property.created_on = req.body.created_on),(property.body = req.body.body);
+    return res.status(201).json({
+      status: "success",
+      data: property_data,
+    });
+  } else {
+    res.status(400).json({
+      error: "property can not be updated"
+    });
+  }
 }
 
+//*********delete property*********** */
+static deleteProperty(req, res) {
+   const property =property_data.find(c=>c.id===parseInt(req.params.id));
+  
+   if(!property) res.status(404).send('The given property Id not found');
+  
+   const index=property_data.indexOf(property);
+   property_data.splice(index, 1);
+
+   return res.status(201).json({
+    status: "success",
+    data: {
+      message:"Successfully Deleted"
+    },
+  });
+  
+}
+
+//*********mark property as sold*********** */
+static viewByType(req, res) {
+  const result = property_data.filter(item => item.type === req.query.type);
+  if (result.length > 0) {
+    return response(res, 200, result);
+  }
+  return response(res, 404, 'Type does not exist', true);
+}
+
+
+
+
+
+
+
+
+}
 
 
 export default propertyController;
