@@ -1,5 +1,5 @@
 const property_data = [
-   /* {
+    {
     id: 1,
     owner: 1, 
     status: 'avalable', 
@@ -11,7 +11,11 @@ const property_data = [
     created_on: '',
     image_url:''
     }
+
+    
+
     */
+
    
  ];
  export default property_data;
