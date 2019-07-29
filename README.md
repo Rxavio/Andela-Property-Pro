@@ -34,6 +34,10 @@ https://xavioo.github.io/Andela-Property-Pro/UI/
 
 
 
+[![Build Status](https://travis-ci.org/xavioo/Andela-Property-Pro.svg?branch=develop)](https://travis-ci.org/xavioo/Andela-Property-Pro)
+
+
+
 
 
 
