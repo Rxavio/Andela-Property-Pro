@@ -12,7 +12,7 @@ class propertyController {
     }
 
     //*********single property*********** */
- 
+
 static getSingleProperty(req, res) {
   const findProperty = property_data.find(property_data => property_data.id === parseInt(req.params.id, 10));
   if (findProperty) {
@@ -28,6 +28,7 @@ static getSingleProperty(req, res) {
 }
 
 //*********add properties*********** */
+
 static addProperty(req, res) {
   const Id = parseInt(property_data.length) + 1;
   const { owner,status,price,state,city,address,type,created_on,body } = req.body;
@@ -61,6 +62,7 @@ static addProperty(req, res) {
 }
 
 //*********update property*********** */
+
 static updateProperty(req, res) {
   const { id } = req.params;
   const property = property_data.find(updateProperty => updateProperty.id == id);
@@ -70,17 +72,18 @@ static updateProperty(req, res) {
     (property.type = req.body.type),  (property.created_on = req.body.created_on),(property.body = req.body.body);
     return res.status(201).json({
       status: "success",
-      data: property_data,
+      data: property,
+      //data: property_data,
     });
   } else {
     res.status(400).json({
       error: "property can not be updated"
     });
   }
-
 }
 
 //*********delete property*********** */
+
 static deleteProperty(req, res) {
    const property =property_data.find(c=>c.id===parseInt(req.params.id));
   
@@ -98,46 +101,21 @@ static deleteProperty(req, res) {
   
 }
 
-//*********mark property as sold*********** */
-static viewByType(req, res) {
-  const result = property_data.filter(item => item.type === req.query.type);
-  if (result.length > 0) {
-    return response(res, 200, result);
+// Get property by type
+static PropertiesByType (req, res){
+  const { type } = req.params;
+  const byTypeProperties = property_data.filter(property => property.type === type);
+  if (byTypeProperties.length > 0) {
+    return res.status(200).send(byTypeProperties);
+   
   }
-  return response(res, 404, 'Type does not exist', true);
-
-}
-
-//*********delete property*********** */
-static deleteProperty(req, res) {
-   const property =property_data.find(c=>c.id===parseInt(req.params.id));
-  
-   if(!property) res.status(404).send('The given property Id not found');
-  
-   const index=property_data.indexOf(property);
-   property_data.splice(index, 1);
-
-   return res.status(201).json({
-    status: "success",
-    data: {
-      message:"Successfully Deleted"
-    },
-  });
-  
-}
-
-
+  else{
+    return res.status(404).send('No Property found on the given type');
+  } 
 }
 
 }
 
-
-
-
-
-
-
-}
 
 
 export default propertyController;

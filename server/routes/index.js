@@ -10,13 +10,12 @@ routes.get('/property/:id', propertyController.getSingleProperty);
 
 routes.post('/property', propertyController.addProperty);
 
+
 routes.patch('/property/:id', propertyController.updateProperty);
 
 routes.delete('/property/:id', propertyController.deleteProperty);
 
-
-routes.get('/property/:type', propertyController.viewByType);
-
+routes.get('/property/:type', propertyController.PropertiesByType);
 
 
 export default routes;
