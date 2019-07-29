@@ -35,9 +35,7 @@ https://xavioo.github.io/Andela-Property-Pro/UI/
 
 
 [![Build Status](https://travis-ci.org/xavioo/Andela-Property-Pro.svg?branch=develop)](https://travis-ci.org/xavioo/Andela-Property-Pro)
-
-[![Coverage Status](https://coveralls.io/repos/github/xavioo/Andela-Property-Pro/badge.svg?branch=develop)](https://coveralls.io/github/xavioo/Andela-Property-Pro?branch=develop)
-
+[![Coverage Status](https://coveralls.io/repos/github/xavioo/Andela-Property-Pro/badge.svg?branch=ft-user-search-by-type-%23167251331)](https://coveralls.io/github/xavioo/Andela-Property-Pro?branch=ft-user-search-by-type-%23167251331)
 
 
 
