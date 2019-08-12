@@ -6,6 +6,13 @@ import app from '../server';
 // Configure chai
 chai.use(chaiHttp);
 chai.should();
+
+describe('before each', () => {
+  beforeEach((done) => {
+    done();
+  });
+});
+
 describe("Properties", () => {
     describe("GET /", () => {
         // Test to get all users record
@@ -51,22 +58,37 @@ describe("Properties", () => {
 
 
 // CREATE NEW PROPERTY
-describe('POST/ ', () => {
-  it('it should add new property', (done) => {
-    chai.request(app)
-      .post('/api/v1/property')
+
+describe('Property Tests', () => {
+
+  it('Should not be able to create new property when price is empty', (done) => {
+    chai
+    .request(app)
+    .post('/api/v1/property').send({
+      owner: 'asgdagsdjahdjk',
+      status:'jjj',
+      price: '',
+      state: 'kahskjadhbh',
+      city: 'nyanasjjahgdnaxa',
+      address: 'rqmnasdwrfds',
+      type: 'house asdgjh',
+      //imageUrl: 'https://via.localstorage.com/pic'
+    })
       .end((err, res) => {
-        res.should.have.status(200);
+        res.should.has.status(401);
         done();
-        
       });
-  });
-
 
   });
 
 
 
 
+
+
+});
+
+
+ 
 
 });
