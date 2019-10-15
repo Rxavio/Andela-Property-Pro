@@ -15,11 +15,11 @@ My pivot tracker project stories(https://www.pivotaltracker.com/n/projects/23562
 
 ## GitHub Repo link for my UI pages Frontend
 
-https://github.com/xavioo/Andela-Property-Pro
+
 
 ## GitHub pages link for my UI pages Frontend
 
-https://xavioo.github.io/Andela-Property-Pro/UI/
+
 
 ## Required Features for property pro lite 
 - [ ] User can sign up.
@@ -34,7 +34,7 @@ https://xavioo.github.io/Andela-Property-Pro/UI/
 
 
 
-[![Build Status](https://travis-ci.org/xavioo/Andela-Property-Pro.svg?branch=develop)](https://travis-ci.org/xavioo/Andela-Property-Pro)
+
 [![Coverage Status](https://coveralls.io/repos/github/xavioo/Andela-Property-Pro/badge.svg?branch=ft-user-search-by-type-%23167251331)](https://coveralls.io/github/xavioo/Andela-Property-Pro?branch=ft-user-search-by-type-%23167251331)
 
 
