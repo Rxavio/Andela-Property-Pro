@@ -35,7 +35,7 @@ My pivot tracker project stories(https://www.pivotaltracker.com/n/projects/23562
 
 
 
-[![Coverage Status](https://coveralls.io/repos/github/xavioo/Andela-Property-Pro/badge.svg?branch=ft-user-search-by-type-%23167251331)](https://coveralls.io/github/xavioo/Andela-Property-Pro?branch=ft-user-search-by-type-%23167251331)
+
 
 
 
